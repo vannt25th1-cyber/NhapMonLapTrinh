@@ -38,14 +38,18 @@ void cau1() {
     sotien -= to20k * 20000;
     int to10k = sotien / 20000;
     cout << "So to 10k: " << to10k << endl;
-
-
-    
-
-
+}
+void cau3() {
+    float bankinh, chieucao;
+    cout << "Nhap ban kinh, chieu cao (cm): ";
+    cin >> bankinh >> chieucao;
+    const float PI = 3.14;
+    float V = PI * bankinh * bankinh * chieucao;
+    cout << "The tich khoi tru tron la: " << V << "(cm3)" << endl;
+    cout << "So lit nuoc la: " << V / 1000 << " (lit)" << endl;
 
 }
 int main()
 {
-    cau2();
+    cau3();
 }
