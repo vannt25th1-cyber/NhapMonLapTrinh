@@ -60,7 +60,15 @@ void cau4() {
 
 
 } 
+void cau5() {
+    int a, b, c;
+    cout << "Nhap 3 canh: ";
+    cin >> a >> b >> c;
+    cout << "The tich: " << a * b * c << endl;
+    cout << "Dien tich:" << 2 * (a * b + b * c) << endl;
+
+}
 int main()
 {
-    cau4();
+    cau5();
 }
