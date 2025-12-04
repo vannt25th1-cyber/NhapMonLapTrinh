@@ -1,5 +1,6 @@
 
 #include <iostream>
+#include <cmath>
 using namespace std;
 void cau1() {
     int a, b, c;
@@ -79,10 +80,44 @@ void cau5() {
         cout << "Khong la tam giac" << endl;
     }
 }
+void cau6() {
+    double a, b, c;
+    cout << "Nhap a, b, c: ";
+    cin >> a >> b >> c;
+    if (a == 0) {
+        if (b == 0) {
+            if (c == 0) {
+                cout << "Phuong trinh vo ngiem";
+            }
+            else {
+                cout << "Phuong trinh vo nghiem";
+            }
+        }
+        else {
+            cout << "Phuong trinh co 1 nghiem x = " << -c / a << endl;
+        }
+    }
+    else double d = b * b - 4 * a * c;
+    if (d < 0) {
+        cout << "Phuong trinh vo nghiem";
+    }
+    else if (d == 0) {
+        cout << "Phuong trinh co nghiem kep x = " << -b / (2 * a) << endl;
+    }
+    else {
+        double x1 = (-b - sqrt(d)) / (2 * a);
+        double x2 = (-b + sqrt(d)) / (2 * a);
+        cout << "Phuong trinh co 2 nghiem: ";
+        cout << "x1 = " << x1 << endl;
+        cout << "x2 = " << x2 << endl;
+    }
+}
+
+        
 
 int main() 
 {
 
-cau5();
+cau6();
 }
 
