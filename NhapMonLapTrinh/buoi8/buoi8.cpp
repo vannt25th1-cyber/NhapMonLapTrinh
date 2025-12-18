@@ -1,7 +1,7 @@
 
 
 #include "Aray.h"
-#include "Aray.h"
+#include "Songuyen.h"
 #define MAX 100
 
 
@@ -13,7 +13,8 @@ int main()
 	//giatrichan(a, n);
 	//vitriam(a, n);
 	//giatrilonnhat(a, n);
-	vitrinhonhat(a, n);
+	//vitrinhonhat(a, n);
+	nguyentonhohon100(a, n);
 
 
 

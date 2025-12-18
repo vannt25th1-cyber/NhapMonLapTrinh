@@ -1,0 +1,2 @@
+bool NguyenTo(int n);
+
