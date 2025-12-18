@@ -6,3 +6,14 @@ void input(int b[], int & n) {
 	cin >> n;
 
 }
+void output(int b[], int n) {
+	cout << "Danh sach phan tu mang: " << endl;
+	int i = 0;
+	while (i < n) {
+		cout << b[i] << "  ";
+		i++;
+
+	}
+	cout << endl;
+
+}
