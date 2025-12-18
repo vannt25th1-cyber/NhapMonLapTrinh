@@ -11,7 +11,9 @@ int main()
 	input(a, n);
 	//output(a, n);
 	//giatrichan(a, n);
-	vitriam(a, n);
+	//vitriam(a, n);
+	giatrilonnhat(a, n);
+
 
 
 
